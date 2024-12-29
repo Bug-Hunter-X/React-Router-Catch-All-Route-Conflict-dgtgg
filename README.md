@@ -1,0 +1,3 @@
+# React Router Catch-All Route Conflict
+
+This repository demonstrates a common issue in React Router v6 where a catch-all route (`/*`) placed before other routes causes those routes to be ignored. The `/*` route acts as a wildcard and will match any path, effectively overriding more specific routes. This example shows how to correctly place the catch-all route at the end of your route definitions to ensure all routes function as expected. 
